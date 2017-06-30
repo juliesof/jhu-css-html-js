@@ -41,7 +41,7 @@ h2 {
 /* CSS for Mobile */
 @media (max-width: 767px){
 	.container-sm {
-		margin: 4em;
+		margin: 3em;
 	}
 	.menu-category-sm {
 		width: 100%;
@@ -51,17 +51,19 @@ h2 {
 /* CSS for Tablet */
 @media (max-width: 991px) and (min-width: 768px){
 	.container-lg {
-	margin: 2em;
-	overflow: hidden;
+		overflow: hidden;
 	}
 	.menu-category-med-half {
-		width: 47%;
+		width: 47.5%;
 		display: inline-block;
 		margin: 1em auto;
 	}
 	.menu-category-med-full {
 		width: 97.5%;
 		margin: 1em auto;
+	}
+	#chicken {
+		margin-left: 1.25%;
 	}
 	#beef {
 		margin-left: 1em;
@@ -71,7 +73,6 @@ h2 {
 /* CSS for Desktop */
 @media (min-width: 992px){
 	.container-lg {
-		margin: 2em;
 		overflow: hidden;
 	}
 	.menu-category-lg {
@@ -79,6 +80,9 @@ h2 {
 		display: inline-block;
 		margin: 1em auto;
 		min-height: 175px;
+	}
+	#chicken {
+		margin-left: 3em;
 	}
 	#beef {
 		margin-right: 1em;
